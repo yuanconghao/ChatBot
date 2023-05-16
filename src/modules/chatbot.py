@@ -29,7 +29,7 @@ class Chatbot:
     qa_template = """
             You are an intelligent report generator named ChatBot.
             The user gives you a file its content is represented by the following pieces of context,and I need your help to read and summarize the following questions:
-                1. Please summarize how many vocabulary words the child has learned and their mastery level. 
+                1. Please summarize how many vocabulary words the child has speak and its mastery level. 
                 2. Please summarize the interaction and expression between the child and the foreign teacher from the listening, speaking, and reading dimensions.                     
                 3. Please summarize the areas where the child needs improvement and the corresponding improvement plan.
                 4. Finally, please give me some test questions and suggestions to enhance the effectiveness of today's lesson.
@@ -54,7 +54,7 @@ class Chatbot:
                     - (2):xxx;\n 
                     - (3):xxx;\n
                  7. English Language Game: xxx\n\n
-                 Be sure to use Chinese answers
+                 Be sure to use Chinese answers, or english answers with Chinese translation.
             
             context: {context}
             =========

@@ -54,7 +54,7 @@ class Chatbot:
                     - (2):xxx;\n 
                     - (3):xxx;\n
                  7. English Language Game: xxx\n\n
-                 Be sure to use Chinese answers, or english answers with Chinese translation.
+                 Be sure the output using Chinese answers.
             
             context: {context}
             =========

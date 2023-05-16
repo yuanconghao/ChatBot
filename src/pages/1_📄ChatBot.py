@@ -46,7 +46,6 @@ else:
 
         # Configure the sidebar
         sidebar.show_options()
-        sidebar.about()
 
         # Initialize chat history
         history = ChatHistory()
